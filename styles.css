@@ -1,2 +1,12 @@
+.item {
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	align-items: center;
+}
 
-/* Your CSS Code here. */
+.holder {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
